@@ -1,0 +1,224 @@
+
+.navbar-brand {
+  padding: 12px 15px;
+}
+.navbar {
+  background: #666666;
+}
+.navbar-header h4{
+  color:white;
+margin-top:-1px;
+font-size: 24px;
+font-weight: bold;
+letter-spacing: 5px;
+}
+.jumbotrump{
+   background: url('../images/love-beans-caffeine-coffee.png') top center repeat;
+}
+/* --------------------------------------
+ Carousel
+ -------------------------------------- */
+.about{
+  font-family: arial;
+}
+.about h1{
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  color:#6E6E6E;
+  letter-spacing: 5px;
+}
+.about h4{
+  text-align: center;
+  line-height: 30px;
+  color:#6E6E6E;
+  padding-bottom: 100px;
+}
+ #myCarousel {
+   margin-top: 60px;
+   font-size: 1rem;
+ }
+.carousel-control.right{
+opacity:0;
+}
+.carousel-control.left{
+opacity:0;
+}
+ .carousel-caption {
+   font-size: 1.5em;
+ }
+.button{
+  border-radius: 15px;
+  width:100px;
+  height:50px;
+border-color: white;
+border-width: 10px;
+  text-align: center;
+  margin:0 auto;
+}
+.button a{
+  color:#8C8C8C;
+  font-size: 20px;
+  line-height: 50px;
+  text-decoration: none;
+            transition: color 0.5s ease-in-out;
+
+}
+.button a:hover{
+  color:white;
+}
+
+ .carousel-caption h4 {
+   margin-top: -250px;
+   font-size: 2em;
+ }
+ .carousel-caption p {
+   font-weight: normal;
+   text-decoration: none;
+ }
+ .caret{
+   color:white;
+ }
+ .third_color{
+   background: #F0F0F0;
+ }
+ .pushed{
+   padding-top: 50px;
+   padding-bottom: 40px;
+ }
+.step_1{
+  width:254px;
+  height:254px;
+  margin:0 auto;
+}
+.step_1_1{
+  width:150px;
+  height:150px;
+  margin: 0 auto;
+
+}
+.pushed h4{
+  color:#6E6E6E;
+}
+.container_3 h4{
+  text-align: center;
+  line-height: 30px;
+padding-top: 45px;
+
+}
+.forth_color h1{
+  text-align: center;
+  line-height: 100px;
+  color:#6E6E6E;
+  margin-bottom: -20px;
+  letter-spacing: 5px;
+}
+.forth_color h3{
+  text-align: center;
+  color:#8C8C8C;
+  letter-spacing: 3px;
+}
+.fixed_3{
+  margin-left: 35%;
+}
+ #myCarousel .item {height: 400px;}
+
+ #slide1 {
+   background: url('../images/carousel_medium_01.jpg') top center repeat;
+ }
+
+ #slide2 {
+   background: url('../images/carousel_medium_02.jpg') top center repeat;
+ }
+
+ #slide3 {
+   background: url('../images/carousel_medium_03.jpg') top center repeat;
+ }
+
+ /* --------------------------------------
+    Media Queries
+    -------------------------------------- */
+
+@media (min-width: 1200px) {
+
+ #myCarousel .item {height: 500px;}
+
+ #myCarousel {font-size: 1.5rem;}
+
+
+
+ #slide2 {
+   background: url('../images/carousel_large_02.jpg') top center repeat;
+ }
+
+ #slide3 {
+   background: url('../images/carousel_large_03.jpg') top center repeat;
+ }
+
+}
+
+@media (max-width: 768px) {
+
+ #myCarousel .item {height: 310px;}
+
+ #myCarousel {font-size: 0.8rem;}
+
+#slide1 {
+  background: url('../image/love-beans_md.png') top center repeat;
+}
+
+#slide2 {
+  background: url('../images/carousel_small_02.jpg') top center repeat;
+}
+
+#slide3 {
+  background: url('../images/carousel_small_03.jpg') top center repeat;
+}
+
+.step_1{
+  width:160px;
+  height:160px;
+  margin:0 auto;
+  max-width: 80%;
+}
+.carousel-caption h4{
+  padding-top: 100px;
+}
+.about h1{
+  font-size: 30px;
+}
+.about h4{
+  font-size: 16px;
+}
+.third_color .container .row .col-md-4{
+  padding-top: 20px;
+}
+.fixed_3{
+
+}
+}
+
+/* --------------------------------------
+ Global Styles
+ -------------------------------------- */
+
+
+
+/* --------------------------------------
+ Media Queries
+ -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,284 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700");
+img {
+  width: 100%;
+}
+main {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #5f5f5f;
+  padding: 100px 0 50px;
+  background: #fff;
+  font-size: 15px;
+}
+main p {
+  font-size: 16px;
+}
+main .btn,
+main .ct-cart-checkout,
+main .ct-wishlist-checkout,
+main .ct-cart-clear,
+main .ct-wishlist-clear,
+main .ct-cart-add-to-cart,
+main .ct-wishlist-add-to-cart {
+  background: #a9a9a9;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  color: #fff;
+  border-radius: 0;
+}
+main .btn i,
+main .ct-cart-checkout i,
+main .ct-wishlist-checkout i,
+main .ct-cart-clear i,
+main .ct-wishlist-clear i,
+main .ct-cart-add-to-cart i,
+main .ct-wishlist-add-to-cart i {
+  padding-right: 5px;
+}
+main .btn:hover,
+main .ct-cart-checkout:hover,
+main .ct-wishlist-checkout:hover,
+main .ct-cart-clear:hover,
+main .ct-wishlist-clear:hover,
+main .ct-cart-add-to-cart:hover,
+main .ct-wishlist-add-to-cart:hover,
+main .btn:active,
+main .ct-cart-checkout:active,
+main .ct-wishlist-checkout:active,
+main .ct-cart-clear:active,
+main .ct-wishlist-clear:active,
+main .ct-cart-add-to-cart:active,
+main .ct-wishlist-add-to-cart:active,
+main .btn:focus,
+main .ct-cart-checkout:focus,
+main .ct-wishlist-checkout:focus,
+main .ct-cart-clear:focus,
+main .ct-wishlist-clear:focus,
+main .ct-cart-add-to-cart:focus,
+main .ct-wishlist-add-to-cart:focus {
+  background: #5f5f5f;
+  color: #fff;
+}
+main .ct-product {
+  text-align: center;
+  margin-bottom: 30px;
+}
+main .ct-product .inner {
+  transition: background 0.25s ease;
+  position: relative;
+  padding: 35px 15px 15px;
+}
+main .ct-product .btn {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  line-height: 46px;
+  text-align: center;
+  background: #a9a9a9;
+  padding: 0;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  font-size: 35px;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: -27.5px auto 0;
+  transition: all 0.25s ease;
+}
+main .ct-product .btn:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+main .ct-product .btn:hover:active {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+main .ct-product .btn i {
+  position: relative;
+  left: 4px;
+}
+main .ct-product-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: center;
+}
+main .ct-product-price {
+  margin-top: 10px;
+  color: #a9a9a9;
+  display: block;
+}
+main .ct-product-wishlist {
+  color: #000000;
+  padding: 10px;
+  transition: all 0.25s ease;
+  display: inline-block;
+  margin-top: 10px;
+}
+main .ct-product-wishlist:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+main .ct-product-wishlist:hover:active {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+main .ct-product:hover .inner {
+  background:#a9a9a9;
+}
+main .ct-product:hover .inner * {
+  color: #fff;
+}
+main .widget {
+  padding-bottom: 80px !important;
+  background: #fff;
+  padding: 0 15px 15px;
+}
+main .ct-cart,
+main .ct-wishlist {
+  position: relative;
+  display: table;
+  width: 100%;
+}
+main .ct-cart-promo input,
+main .ct-wishlist-promo input {
+  width: 100% !important;
+  margin: 15px 0 10px !important;
+  border: 1px solid #ddd !important;
+  padding: 3px;
+}
+main .ct-cart-left,
+main .ct-wishlist-left {
+  width: 80px;
+  padding-right: 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+main .ct-cart-body,
+main .ct-wishlist-body {
+  width: calc(100% - 80px);
+  display: table-cell;
+  vertical-align: middle;
+}
+main .ct-cart:before,
+main .ct-wishlist:before,
+main .ct-cart:after,
+main .ct-wishlist:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+main .ct-cart-total:before,
+main .ct-wishlist-total:before {
+  content: 'Total: ';
+  padding-right: 10px;
+}
+main .ct-cart-empty,
+main .ct-wishlist-empty {
+  padding-top: 0;
+}
+main .ct-cart ol,
+main .ct-wishlist ol,
+main .ct-cart ul,
+main .ct-wishlist ul {
+  list-style: none;
+  padding: 20px 0;
+}
+main .ct-cart li,
+main .ct-wishlist li {
+  position: relative;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+main .ct-cart li:before,
+main .ct-wishlist li:before,
+main .ct-cart li:after,
+main .ct-wishlist li:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+main .ct-cart li:first-child,
+main .ct-wishlist li:first-child {
+  border-top: 1px solid #eee;
+}
+main .ct-cart-remove,
+main .ct-wishlist-remove {
+  position: absolute;
+  top: 50%;
+  margin-top: -12.5px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  color:#a9a9a9;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+main .ct-cart-remove:hover,
+main .ct-wishlist-remove:hover {
+  background: #a9a9a9;
+  color: #fff;
+}
+main .ct-cart-name,
+main .ct-wishlist-name {
+  display: block;
+}
+main .ct-cart input,
+main .ct-wishlist input,
+main .ct-cart-price,
+main .ct-wishlist-price {
+  color: #a9a9a9;
+border
+}
+main .ct-cart input,
+main .ct-wishlist input {
+  width: 50px;
+  border: none;
+}
+main .ct-cart-price:after,
+main .ct-wishlist-price:after {
+  content: 'x';
+  padding: 0 10px;
+}
+main .ct-cart select,
+main .ct-wishlist select {
+  width: 100%;
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+  line-height: 30px;
+  color: #5f5f5f;
+  padding: 3px;
+}
+main .ct-cart-add-to-cart,
+main .ct-wishlist-add-to-cart {
+  display: block;
+  margin-top: 3px;
+  padding: 2px 8px;
+}
+main .ct-cart-checkout,
+main .ct-wishlist-checkout,
+main .ct-cart-clear,
+main .ct-wishlist-clear {
+  padding: 8px 14px;
+}
+main .ct-cart-checkout,
+main .ct-wishlist-checkout {
+  float: right;
+}
+main .ct-cart-clear,
+main .ct-wishlist-clear {
+  float: left;
+}
+main .ct-wishlist-price:after {
+  display: none;
+}
+.ct-small-cart {
+  margin-bottom: 10px;
+}
+.ct-small-cart .ct-cart-content {
+  width: 265px;
+  z-index: 10000;
+  right: 0;
+  background: #fff;
+  min-height: 20px;
+  padding: 20px;
+  max-height: 400px;
+}

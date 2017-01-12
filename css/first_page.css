@@ -1,0 +1,210 @@
+/*
+
+My Custom CSS
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+  .navbar-brand {
+    padding: 12px 15px;
+  }
+  .navbar {
+    background: #666666;
+  }
+  .navbar-header h4{
+    color:white;
+  margin-top:-1px;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  }
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel {
+     margin-top: 60px;
+     font-size: 1rem;
+   }
+
+   .carousel-caption {
+     font-size: 1.5em;
+   }
+
+   .carousel-caption h4 {
+     font-size: 2em;
+   }
+
+  .word {
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+        color:#6E6E6E;
+  }
+
+  .category{
+    text-align: center;
+    line-height:100px;
+    padding-top: 100px;
+      font-weight: bold;
+      color:#6E6E6E;
+  }
+.line{
+  width:200px;
+  height:2px;
+  background: #6E6E6E;
+}
+
+.content{
+  font-weight: normal;
+}
+
+#service h3{
+  color:#6E6E6E;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+#service h4{
+  color:#6E6E6E;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+  .fixed{
+    padding-top: 50px;
+  }
+
+  .container .row .fixed_2{
+    padding-bottom: 150px;
+  }
+      .fixed_3{
+        margin: 0 auto;
+      }
+
+   #myCarousel .item {height: 400px;}
+
+   #slide1 {
+     background: url('../image/webpage.png') top center repeat;
+   }
+
+   #slide2 {
+     background: url('../images/carousel_medium_02.jpg') top center repeat;
+   }
+
+   #slide3 {
+     background: url('../images/carousel_medium_03.jpg') top center repeat;
+   }
+
+   /* --------------------------------------
+      Media Queries
+      -------------------------------------- */
+      footer {
+        background: #333;
+        color: #666666;
+        font-size: 11px;
+        padding: 20px;
+      }
+          .hot .col-md-3 a{
+            transition: opacity 0.5s ease-in-out;
+
+          }
+          .hot .col-md-3 a:hover{
+            opacity:0.5;
+          }
+          .fixed a{
+              transition: opacity 0.5s ease-in-out;
+          }
+          .fixed a:hover{
+            opacity: 0.5;
+          }
+ @media (min-width: 1200px) {
+
+   #myCarousel .item {height: 500px;}
+
+   #myCarousel {font-size: 1.5rem;}
+
+   #slide1 {
+     background: url('../image/webpage.png') top center repeat;
+   }
+
+   #slide2 {
+     background: url('../image/webpage.png') top center repeat;
+   }
+
+   #slide3 {
+     background: url('../image/webpage.png') top center repeat;
+   }
+   
+   }
+ }
+
+
+@media (max-width: 768px) {
+
+   #myCarousel .item {height: 310px;}
+
+   #myCarousel {font-size: 0.8rem;}
+
+
+  #slide1 {
+    background: url('../image/webpage.png') top center repeat;
+  }
+
+  #slide2 {
+    background: url('../image/webpage.png') top center repeat;
+  }
+
+  #slide3 {
+    background: url('../image/webpage.png') top center repeat;
+  }
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+footer{
+  text-align: center;
+}

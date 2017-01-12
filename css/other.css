@@ -1,0 +1,35 @@
+.qna {
+  height:650px;
+  margin-top: 120px;
+}
+.navbar {
+  background: #666666;
+}
+.navbar-header h4{
+  color:white;
+margin-top:-1px;
+font-size: 24px;
+font-weight: bold;
+letter-spacing: 5px;
+}
+.qna>div>h1,.hr>h1{
+  width: 228px;
+  height: 50px;
+  font-family: PingFangTC;
+  font-size: 36px;
+  font-weight: 600;
+  background-color: #d8d8d8;
+  color: #666666;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.qna>div>p,.hr>p {
+  color: #a6a6a6;
+}
+.hr{
+  height:900px;
+  margin-top: 120px;
+}

@@ -1,0 +1,144 @@
+@font-face {
+  font-family:PingFangTC;
+  src: url("../fonts/PingFang.ttf") format("truetype");
+}
+html{
+overflow-x:hidden;
+}
+
+html,body,h1,h2,h3,h4,h5,p{
+
+font-family:PingFangTC;
+font-weight: 50;
+
+
+}
+
+.navbar {
+  background: #666666;
+}
+.navbar-header h4{
+  color:white;
+margin-top:-1px;
+font-size: 24px;
+font-weight: bold;
+letter-spacing: 5px;
+}
+body{
+  max-height: 1400px;
+}
+
+div,img,p,h1,h2,h3,h4,h5{
+  border-radius:3px;
+}
+
+.graynav {
+   height: 67.5px;
+   background-color: #666666;
+ }
+ .gray{
+background-color: #666666;
+ }
+#navfont{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: PingFangTC;
+  font-size: 24px;
+  color: #fbfbfb;
+}
+#navsearch{
+}
+.container{
+  max-width: 1440px;
+}
+#searchbar{
+margin-top: 15px;
+
+}
+
+#myJumbotron .jumbotron{
+     background: url('../images/banner.jpg');
+     height: 440px;
+     max-width: 1098px;
+     margin-top: 70px;
+
+  }
+
+.centerauto{
+
+margin-left: auto;
+margin-right:auto;
+text-align : center;
+display: table;
+}
+.topsell h2 ,.classifiy h2{
+  width: 228px;
+  height: 50px;
+  font-family: arial;
+  font-size: 36px;
+  font-weight: 600;
+
+  color: #666666;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topsell h2{
+  margin-top: 50px;
+}
+.classifiy h2{
+  margin-top: 100px;
+}
+.topsell img{
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.classifiy img{
+  margin-top: 36px;
+}
+.absu-title{
+  font-size: 24px;
+  color: #606060;
+   font-weight: 600;
+}
+.absu-text{
+  font-size: 16px;
+  color: #8e8e8e;
+  text-decoration: none;
+}
+.howwork{
+  background-color: #d8d8d8;
+}
+.hrline{
+  border-color: #888888;
+}
+.copyfoot{
+  margin-top: 40px;
+  height: 45px;
+ background-color: #666666;
+}
+.copyfoot p{
+ font-size: 12px;
+ color: #ffffff;
+text-align: center;
+margin-top:10px;
+
+}
+.classifiy a{
+  transition: opacity 0.5s ease-in-out;
+}
+.classifiy a:hover{
+  opacity:0.6;
+}
+.jumbotron {
+  text-align: center;
+  color:white;
+  font-family: arial;
+}
+
+.jumbotron h4{
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
